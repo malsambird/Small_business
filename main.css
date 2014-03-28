@@ -1,0 +1,324 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* reset end */
+
+
+body {
+	text-align: center;
+	font-family: 'Kite One', Helvetica, arial;
+}
+
+
+header {
+	position: relative;
+	width: 100%;
+	height: 80px;
+	background-color: white;
+	text-align: left;
+}
+
+#email_box {
+	
+	height: 85px;
+	overflow: auto;
+	
+	
+}
+#email_background {
+	height: 80px;
+	width: 100%;
+	background-color: white;
+	opacity: 0.7;
+	position: absolute;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+
+}
+form {
+	position: relative;
+	top: 12px;
+	font-weight: bold;
+	line-height: 1.6;
+
+}
+form p {
+	font-weight: normal;
+}
+#logo {
+	height: 60px;
+	position: absolute;
+	left: 25px;
+	bottom: 10px;
+
+
+}
+
+#email {
+	width: 150px;
+	height: 25px;
+	font-size: .8em;
+	font-family: serif;
+	text-indent: 0.5em;
+	position: relative;
+	
+}
+
+#submit {
+	width: 38px;
+	background-color: purple;
+	border-radius: 5px;
+	font-size: 1em;
+	border:none;
+	color:white;
+	font-family: 'Kite One', serif;
+}
+#submit:hover, #submit:focus {
+	cursor: pointer;
+	box-shadow: 1px 1px 1px black; 
+}
+#box_container {
+	vertical-align: top;
+	position: relative;
+	display: inline-block;
+	width: 100%;
+}
+#box_1, #box_3 {
+	
+	background:  rgb(194, 167, 141);
+	display:inline-block;
+	position: relative;
+	top:0;
+	line-height: 1.2;
+	vertical-align: text-top;
+}
+#box_2 {
+	
+	
+	display:inline-block;
+	position: relative;
+	top:0;
+	vertical-align: text-top;
+}
+
+
+#portfolio
+	{
+		height: 150px;
+		border-radius: 100%;
+		border: 2px solid rgb(47, 35, 36);
+		
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		
+	}
+#box_1 p {
+	display: block;
+}
+#why {
+	display:block;
+}
+.edits {
+	margin-top: 20px;
+}
+#types {
+	display: block;
+	padding: 0 35px 20px 35px;
+	text-align: center;
+}
+p, li {
+	color: rgb(76, 92, 124);
+	padding: 3px 10px;
+}
+
+span {
+	line-height: 1.6;
+	text-decoration: underline;
+
+}
+li {
+	font-weight: bold;
+	line-height: 1.8;
+	color: black;
+}
+h2 {
+	color: rgb(47, 35, 36);
+	font-size: 1.5em;
+	padding: 20px;
+}
+#land_image {
+	width: 100%;
+}
+
+
+#container {
+	position: relative;
+}
+
+#vision {
+	font-size: 1.5em;
+	color: rgb(223, 103, 8);
+	font-family:  'Annie Use Your Telescope', 'Rambla', serif;
+	background: white;
+	opacity: 0.7;
+	font-style: italic;
+	border-radius: 10px;
+}
+
+em {
+	color:purple;
+	font-size: 2.5em;
+	font-family: 'Annie Use Your Telescope', cursive;
+}
+
+#nav a {
+	text-transform: uppercase;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+footer {
+	position:relative;
+	float: left;
+	width: 100%;
+	background-color: rgb(147, 134, 132);
+	border-top: 2px solid white;
+	
+	min-height: 60px;
+	
+}
+
+footer p {
+	color: black;
+	font-size: 0.7em;
+	line-height: 0.9em;
+}
+#footer_left {
+	position: relative;
+	float: left;
+	text-align: left;
+	padding: 10px 0px 10px 20px;
+}
+#footer_right {
+	position: relative;
+	float:right;
+	text-align: right;
+	padding: 10px 20px 10px 0px;
+}
+
+/* Small Screens */
+@media only screen and (max-width: 800px) {
+#box_1, #box_2, #box_3 {
+	width: 100%;
+	height: 300px;
+}
+
+#nav {
+	display:none;
+}
+#mobilenav {
+	position: absolute;
+	height: 28px;
+	right: 18px;
+	bottom: 22px;
+	}
+
+
+#email_box {
+	width: 100%;
+	margin-top: 4px;
+	height: 135px;
+}
+#email_background {
+	display: none;
+}
+#vision {
+	width: 100%;
+	margin-top: 12px;
+
+}
+}
+/* Large Screens */
+@media only screen and (min-width: 801px) {
+
+#mobilenav {
+	display:none;
+}
+#vision {
+	position: absolute;
+	top: 70px;
+	right: 35px;
+	width: 270px;
+}
+#email_box {
+	width: 600px;
+	position: absolute;
+	bottom: 20px;
+
+	
+}
+#box_1, #box_2, #box_3 {
+
+	min-height: 300px;
+	width: 33.33%;
+	}
+#nav li {
+	display: inline;
+	padding: 20px 4% 10px;
+}
+
+#nav {
+	right:0;
+	bottom: 15px;
+	text-align: right;
+	position: absolute;
+	width: 560px;
+	}
+}
