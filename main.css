@@ -59,6 +59,23 @@ header {
 	text-align: left;
 }
 
+#mobilenavbox {
+	height: 145px;
+	width: 100%;
+	text-align: justify;
+	
+	display:none;
+	
+}
+#mobilenavbox li {
+	width: 100%;
+	display: block;
+	border-top: 1px solid gray;
+}
+
+#mobilenavbox li a{
+	margin-right: 30px;
+}
 #email_box {
 	
 	height: 85px;
@@ -290,6 +307,9 @@ footer p {
 
 #mobilenav {
 	display:none;
+}
+#mobilenavbox {
+	display: none;
 }
 #vision {
 	position: absolute;
