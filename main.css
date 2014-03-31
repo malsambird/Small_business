@@ -130,6 +130,7 @@ form p {
 	border:none;
 	color:white;
 	font-family: 'Kite One', serif;
+	text-align: center;
 }
 #submit:hover, #submit:focus {
 	cursor: pointer;
